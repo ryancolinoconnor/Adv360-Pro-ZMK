@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/ftc
     - name: refil
-      url-base: https://github.com/refil
+      url-base: https://github.com/ryancolinoconnor
   projects:
     - name: zmk
       remote: refil
