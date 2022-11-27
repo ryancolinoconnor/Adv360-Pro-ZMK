@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/refil
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: mouse-ftc
+      remote: refil
+      revision: adv360-z3
       import: app/west.yml
   self:
     path: config
