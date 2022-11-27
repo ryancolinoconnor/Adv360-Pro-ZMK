@@ -1,13 +1,13 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/DelusionalLogic
+      url-base: https://github.com/ftc
     - name: refil
       url-base: https://github.com/refil
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: mouse0buttons
+      revision: mouse-ftc
       import: app/west.yml
   self:
     path: config
