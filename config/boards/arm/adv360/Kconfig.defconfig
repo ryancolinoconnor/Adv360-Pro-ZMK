@@ -39,6 +39,8 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
+config ZMK_MOUSE
+    default y
 if USB
 
 config USB_NRFX
