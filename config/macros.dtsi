@@ -19,6 +19,7 @@ bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
 macro_bt2: macro_bt2{
 compatible = "zmk,behavior-macro";
 label = "macro_bt2";
+#binding-cells = <0>; // Must be 0
 bindings = <&out OUT_USB>, <&bt BT_SEL 2>;
 };
 macro_parens: macro_parens{
